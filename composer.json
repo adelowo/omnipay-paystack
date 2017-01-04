@@ -1,0 +1,36 @@
+{
+  "name": "adelowo/omnipay-paystack",
+  "license": "MIT",
+  "description": "Paystack driver for the Omnipay payment processing library",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lanre Adelowo",
+      "email": "me@lanreadelowo.com",
+      "role": "Developer",
+      "homepage": "http://lanreadelowo.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "omnipay/common": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Paystack\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Omnipay\\Paystack\\": "tests/"
+    }
+  },
+  "keywords": [
+    "Omnipay",
+    "Omnipay-paystack",
+    "Paystack"
+  ],
+  "require-dev": {
+    "omnipay/tests": "^2.1"
+  }
+}
